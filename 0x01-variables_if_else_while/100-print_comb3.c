@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
  *
@@ -16,8 +17,7 @@ int main(void)
 			{
 				if (i == '0' && j == '1')
 				{
-					putchar('0');
-					putchar('1');
+					write(2, "01", 2);
 				} else
 				{
 					putchar(',');
