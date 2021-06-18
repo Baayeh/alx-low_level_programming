@@ -21,7 +21,7 @@ int main(void)
 					{
 						write(1, "0", 1);
 						write(1, "1", 1);
-						write(1, "2", 2);
+						write(1, "2", 1);
 					} else
 					{
 						putchar(',');
