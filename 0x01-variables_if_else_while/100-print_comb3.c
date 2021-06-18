@@ -18,6 +18,7 @@ int main(void)
 				if (i == '0' && j == '1')
 				{
 					write(1, "0", 2);
+					write(1, "1", 2);
 				} else
 				{
 					putchar(',');
