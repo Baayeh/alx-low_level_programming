@@ -17,7 +17,7 @@ int main(void)
 			{
 				if (i == '0' && j == '1')
 				{
-					write(2, "01", 2);
+					write(1, "0", 2);
 				} else
 				{
 					putchar(',');
