@@ -1,4 +1,4 @@
-const char* printName(char* name)
+char* printName(char* name)
 {
 	return name;
 }
