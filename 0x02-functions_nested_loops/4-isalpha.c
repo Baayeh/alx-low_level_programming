@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * isaplha - checks alphabetic letter
+ * isalpha - checks alphabetic letter
  * @c: single letter
  * Reurn: 1 if c is a letter, else 0
  */
