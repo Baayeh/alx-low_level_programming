@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-	char* name = "Holberton", res;
+	char* name = "Holberton";
 	
-	res = printName(name);
+	char* res = printName(name);
 
-	write(2, res, 9);
+	write(2, res, 8);
 
 	return (0);
 }
