@@ -5,16 +5,13 @@
 /**
  * main - Entry point
  *
- * Return 0
+ * Return: Always 0
  */
 int main(void)
 {
-	char* name = "Holberton";
-	
-	char* res = printName(name);
+	char *name = "Holberton";
+	char *res = printName(name);
 
-	write(2, res, 8);
-
+	write(2, res, 9);
 	return (0);
 }
-
