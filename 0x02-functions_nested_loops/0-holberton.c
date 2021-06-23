@@ -10,9 +10,12 @@
 int main(void)
 {
 	char *name = "Holberton";
-	char *res = printName(name);
-
-	write(0, res, 10);
-	putchar('\n');
+	
+	while (*name)
+	{
+		_putchar(*name);
+		*name++;
+	}
+	_putchar('\n');
 	return (0);
 }

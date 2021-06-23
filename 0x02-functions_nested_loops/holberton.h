@@ -1,4 +1,6 @@
-char* printName(char* name)
-{
-	return name;
-}
+#ifndef HOLBERTON
+#define HOLBERTON
+
+char _putchar(char c);
+
+#endif
