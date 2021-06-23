@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 #include "holberton.h"
 
 /**
@@ -10,12 +9,12 @@
 int main(void)
 {
 	char *name = "Holberton";
-	
+
 	while (*name)
 	{
 		_putchar(*name);
 		name++;
 	}
-	_putchar('\n');
+	_puchar('\n');
 	return (0);
 }
