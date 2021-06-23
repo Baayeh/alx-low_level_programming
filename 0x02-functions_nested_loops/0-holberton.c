@@ -13,6 +13,6 @@ int main(void)
 	char *res = printName(name);
 
 	write(2, res, 9);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
