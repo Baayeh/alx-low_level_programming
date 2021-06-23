@@ -12,7 +12,7 @@ int main(void)
 	char *name = "Holberton";
 	char *res = printName(name);
 
-	write(2, res, 9);
+	write(0, res, 10);
 	putchar('\n');
 	return (0);
 }
