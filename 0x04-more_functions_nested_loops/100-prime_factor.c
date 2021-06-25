@@ -12,20 +12,27 @@
 int main(void)
 {
 	long int n = 612852475143;
-	long int d;
+	long int div = 2, ans = 0, maxFact;
 
-	while (n % 2 == 0)
+	while (n != 0)
 	{
-		n = n / 2;
-	}
-
-	for (d = 3; d < sqrt(n); d = d + 2)
-	{
-		while (n % d == 0)
+		if (n % div != 0)
 		{
-			n = n / d;
+			div = div + 1;
+		}
+		else
+		{
+			maxFact = n;
+
+			n = n / div;
+
+			if (n == 1)
+			{
+				printf("%d", maxFact);
+				ans = 1;
+				break;
+			}
 		}
 	}
-	printf("%li", n);
 	return (0);
 }
