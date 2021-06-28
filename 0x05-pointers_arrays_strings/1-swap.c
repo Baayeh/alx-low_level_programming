@@ -2,7 +2,7 @@
 
 /**
  * swap_int - swap the values of a and b
- * @a: first int 
+ * @a: first int
  * @b: second int
  *
  * Return: void
